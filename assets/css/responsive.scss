@@ -1,0 +1,332 @@
+// ===========================================================
+//              Common Css
+// ===========================================================
+
+$primery: #0B2B43;
+$secondray: #7FC6A4;
+$text: #758994;
+$accent: #7FC6A4;
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap');
+$Heebo: 'Heebo', sans-serif;
+$Lato: 'Lato', sans-serif;
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+section{
+    overflow: unset;
+}
+
+
+@mixin Border-radious($value) {
+    border-radius: $value !important;
+    -webkit-border-radius: $value !important;
+    -moz-border-radius: $value !important;
+    -ms-border-radius: $value !important;
+    -o-border-radius: $value !important;
+}
+
+@mixin transition($value) {
+    transition: $value !important;
+    -webkit-transition: $value !important;
+    -moz-transition: $value !important;
+    -ms-transition: $value !important;
+    -o-transition: $value !important;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .banner{
+         
+        h2{
+        
+          background-color: $secondray;
+          padding: 30px 50px;
+          position: absolute;
+          top: 40%;
+        }  
+    }
+
+    .counteri{
+        height: auto;
+    }
+
+ section{
+     padding: 20px;
+     overflow-x: hidden;
+ }
+
+    #title{
+        h1{
+            font-size: 30px;
+        }
+        a{
+            font-size: 30px;
+        }
+    }
+    .top-head{
+        display: none;
+    }
+    ul,li,a , p , span {
+        font-family: $Heebo;
+        font-size: 14px;
+        font-weight: 400;
+        color: $text;
+        line-height: 1.2em;
+    }
+    h1{
+        font-family: $Lato;
+        font-size:56px;
+        font-weight: 800;
+        line-height: 1.2em;
+    }
+    
+    h2{
+        font-family: $Lato;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 1.2em;  
+    }
+    
+    
+    h3{
+        font-family: $Lato;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.2em;  
+    }
+    
+    h4{
+        font-family: $Lato;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.3em;  
+    }
+    
+    button{
+        font-family: $Lato;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 1.2em;  
+    }
+    
+    .banner-crasoul {
+        .main{
+            margin-top: 10vh; 
+        }
+  }
+
+  .About{
+    .teo-content {
+        margin-top: 50px;
+        padding-left: 20px;
+    }
+  }
+
+  .servioces{
+    margin-top: 10px;
+    margin-left: 10px;  
+  }
+  .experince{
+      .progres{
+          padding: 40px;
+      }
+  }
+
+  .latest-project{
+      margin-top: 200px;
+  }
+  .part_2{
+      .content-1{
+          position:absolute;
+          top: 0;
+          left: -100%;
+      }
+  }
+
+  .contact{
+      .media{
+          margin-left: -50px;
+      }
+  }
+  .team{
+    padding: 0px 20px;
+    .man{
+        margin-top: 40px;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+    }
+  }
+  .Quoto{
+    padding-top: 100px;
+    height: auto ;
+     .contact-form{
+         img{
+             padding: 0;
+             height: 100%;
+             width: 100%;
+         }
+        padding: 20px;
+        .back-img{
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: 73% 75%;
+        }
+        form{display: block;
+            background-color: white;
+          padding: 20px 0px;
+        }
+    }
+
+   
+}
+
+.Prinching{
+    .con{
+        .contain{
+            width: 290px;
+           padding: 60px 0px;
+        }
+    }
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 990px)  {
+    .comment{
+      form{
+          padding: 10px;
+      }
+    }
+    .banner{
+         
+        h2{
+        
+          background-color: $secondray;
+          padding: 30px 50px;
+          position: absolute;
+          top: 40%;
+        }
+        h3{
+          font-size: 25px;
+        }
+        
+        
+    }
+
+    .counteri{
+        height: auto;
+    }
+   
+    section{
+        overflow-x: hidden;
+        padding: 20px;
+     }
+  
+    body{
+        overflow-x: hidden;
+    }
+    #title{
+        h1{
+            font-size: 50px;
+        }
+        a{
+            font-size: 30px;
+        }
+    }
+    .top-head{
+        display: none;
+    }
+    ul,li,a , p , span {
+        font-family: $Heebo;
+        font-size: 16px;
+        font-weight: 400;
+        color: $text;
+        line-height: 1.2em;
+    }
+    h1{
+        font-family: $Lato;
+        font-size:56px;
+        font-weight: 800;
+        line-height: 1.2em;
+    }
+    
+    h2{
+        font-family: $Lato;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 1.2em;  
+    }
+    
+    
+    h3{
+        font-family: $Lato;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.2em;  
+    }
+    
+    h4{
+        font-family: $Lato;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.3em;  
+    }
+    
+    button{
+        font-family: $Lato;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 1.2em;  
+    }
+    
+    .banner-crasoul {
+        .main{
+            margin-top: 10vh; 
+        }
+  }
+
+  .About{
+    .teo-content {
+        margin-top: 50px;
+        padding-left: 20px;
+    }
+  }
+
+  .servioces{
+    margin-top: 10px;
+    margin-left: 10px;  
+  }
+  .experince{
+      .progres{
+          padding: 40px;
+      }
+  }
+
+  .latest-project{
+      margin-top: 200px;
+  }
+  .part_2{
+      .content-1{
+          position:absolute;
+          top: 0;
+          left: -100%;
+      }
+  }
+  .team{
+    padding: 0px 20px;
+    .man{
+        margin-top: 10px;
+        overflow: hidden;
+        padding: 10px;
+        position: relative;
+    }
+  }
+}

@@ -1,0 +1,592 @@
+// ===========================================================
+//              Common Css
+// ===========================================================
+
+$primery: #0B2B43;
+$secondray: #7FC6A4;
+$text: #758994;
+$accent: #7FC6A4;
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap');
+$Heebo: 'Heebo',
+sans-serif;
+$Lato: 'Lato',
+sans-serif;
+
+p {
+    line-height: 25px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+i {
+    font-family: $Lato;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+@mixin Border-radious($value) {
+    border-radius: $value;
+    -webkit-border-radius: $value !important;
+    -moz-border-radius: $value !important;
+    -ms-border-radius: $value !important;
+    -o-border-radius: $value !important;
+}
+
+@mixin transition($value) {
+    transition: $value !important;
+    -webkit-transition: $value !important;
+    -moz-transition: $value !important;
+    -ms-transition: $value !important;
+    -o-transition: $value !important;
+}
+
+
+// @mixin transform($value, $value) {
+//     transform: translate($value, value) !important;
+//     -webkit-transform: translate($value, value) !important;
+//     -moz-transform: translate($value, value) !important;
+//     -ms-transform: translate($value, value) !important;
+//     -o-transform: translate($value, value) !important;
+// }
+
+
+ul,
+li,
+a,
+p,
+span {
+    font-family: $Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    color: $text;
+    line-height: 1.2em;
+}
+
+h1 {
+    font-family: $Lato;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+h2 {
+    font-family: $Lato;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+
+h3 {
+    font-family: $Lato;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+h4 {
+    font-family: $Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+button {
+    font-family: $Lato;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+ul {
+    li {
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.media {
+    img {
+        height: 80px;
+        width: 100px;
+        padding-right: 20px;
+        @include Border-radious(100%);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h3 {
+        color: $primery;
+    }
+
+    i {
+        margin-right: 10px;
+        font-size: 44px;
+        color: $secondray;
+    }
+}#title {
+    h4 {
+        margin-bottom: 50px;
+        text-decoration-line: underline;
+        -moz-text-decoration-line: underline;
+        text-decoration-color: $secondray;
+        -moz-text-decoration-color: $secondray;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 20px;
+    }
+
+    p {
+        line-height: 25px;
+    }
+
+    a {
+        font-size: 56px;
+    }
+}
+
+#read-more {
+    display: block;
+    margin-top: 15px;
+    font-size: 15px;
+
+    i {
+        color: $secondray;
+    }
+
+    color: $secondray;
+    text-decoration: none;
+}
+.btns {
+    background-color: #0B2B43;
+    font-size: 14px;
+    font-family: $Lato;
+    font-weight: 400;
+    background-color: $secondray;
+    color: white;
+    border: 1px solid transparent;
+    padding: 18px 32px 18px 32px;
+    @include transition(.5s);
+    font-weight: 600;
+}
+
+.btns:hover {
+    border-color: $secondray;
+    color: $secondray;
+    background-color: transparent;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+#manu:hover {
+    .dropdown-menu {
+        display: block;
+    }
+}
+// ====================================================
+//                  Desctop Header section
+// =================================================== 
+
+
+header {
+    .top-head {
+        font-size: 14px;
+        background-color: $primery;
+        padding: 10px 0px;
+        font-weight: 600;
+
+        i {
+            font-size: 14px;
+        }
+
+        .social-icons {
+            padding: 0px 20px;
+            background-color: rgb(255, 255, 255);
+
+            i {
+                padding: 15px 10px;
+                font-weight: 800;
+                color: $primery;
+                font-size: 18px;
+                @include transition(.5s);
+            }
+
+            i:hover {
+                color: $secondray;
+            }
+        }
+
+
+    }
+
+    nav {
+        z-index: 10000000;
+
+        .navbar-nav {
+            text-transform: uppercase;
+            padding-left: 50px;
+
+            .nav-item {
+                padding: 5px 10px;
+
+                .nav-link {
+                    font-size: 13px;
+                    color: $primery !important;
+                    font-weight: 600;
+                    font-family: $Lato;
+                    @include transition(.5s);
+                }
+
+                .active {
+                    color: $secondray !important;
+                    font-weight: 600;
+                    font-family: $Lato;
+                }
+
+                .nav-link:hover {
+                    color: $secondray !important;
+                }
+            }
+
+            .dropdown {
+                .dropdown-menu {
+                    @include Border-radious(0px);
+                    border: 1px solid transparent !important;
+
+                    .dropdown-item {
+                        font-size: 13px;
+                        padding: 15px 20px;
+                        color: $primery !important;
+
+                    }
+
+                    .dropdown-item:hover {
+                        color: $secondray !important;
+                    }
+                }
+            }
+        }
+
+        button {
+            padding: 15px 50px;
+            border: 1px solid transparent;
+            background-color: $primery;
+            @include transition(.5s);
+
+            a {
+                text-decoration: none;
+                font-size: 18px;
+                color: white;
+
+            }
+        }
+
+        button:hover {
+            background-color: #fff;
+            border-color: $primery;
+
+            a {
+
+                color: $primery;
+
+            }
+        }
+    }
+}
+
+
+// ===========================================================
+//              banner
+// ===========================================================
+
+.banner{position: relative;
+    height: 50vh;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgba(0, 0, 0, 0.692);
+    background-blend-mode: darken;
+    h2{
+      background-color: $secondray;
+      padding: 30px 140px;
+      position: absolute;
+      top: 88%;
+    }
+
+    
+}
+
+
+// ===========================================================
+//              .servioces section
+// ===========================================================
+
+
+
+// ===========================================================
+//              Quoto section
+// ===========================================================
+
+
+
+// ===========================================================
+//              latest-project section
+// ===========================================================
+.latest-project {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 0px 30px;
+
+    img {
+        height: 450px;
+    }
+
+    .con {
+        overflow: hidden;
+        position: relative;
+
+        .content {
+
+            @include transition(.4s);
+            display: flex;
+            align-items: flex-end;
+            background-color: #0b2b43b7;
+            height: 0px;
+            width: 100%;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            padding: 30px;
+
+            .content-1 {
+                margin-top: 100px;
+                @include transition(.3s);
+                visibility: hidden;
+
+                p {  @include transition(.3s);
+                    line-height: 1px;
+                    color: transparent;
+                }
+            }
+        }
+    }
+
+    .con:hover {
+        .content {
+
+            top: 0;
+            left: 0;
+            height: 100%;
+
+            .content-1 {
+                visibility: visible;
+
+                p { color: white;
+                    @include transition(.3s);
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+
+}
+
+// ===========================================================
+//              client section
+// ===========================================================
+.F_A_Q{
+    .accordion-button:not(.collapsed) {
+        font-size: 20px;
+        color: white;
+        @include Border-radious(100px);
+        background-color: $secondray;
+       
+    }
+      .accordion{
+          button{
+            @include Border-radious(100px);
+          }
+      }
+     .accordion-button{
+         padding-top: 30px;
+         height: 60px;
+         background-color: #e2e2e2 ;
+         @include Border-radious(100px);
+         margin: 18px 0px;
+         font-size: 20px;
+         font-family: $Lato !important;
+         color: gray;
+         font-weight: bolder;
+       
+        img{
+            margin-left: -10px;
+            margin-right: 20px;
+        }
+     }
+     .accordion-body{
+         color: $text;
+     }
+     .accordion-item{
+         border: none;
+     }
+     .accordion-button::after{
+        content: '';
+    }
+    .accordion-button:not(.collapsed)::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+    
+    }
+}
+// ===========================================================
+//              team section
+// ===========================================================
+.counteri{
+    
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.555);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 45vh;
+
+    .count{
+        margin-top: 20px;
+        padding: 50px;
+        .count-item{
+            padding: 30px;
+            background-color: white;
+        }
+
+        h2{
+            color: $primery;
+        }
+
+        .content-1 {
+            i {
+                font-size: 56px;
+                color: $secondray;
+            }
+    
+           
+        }
+    }
+
+}
+
+// ===========================================================
+//              Prinching section
+// ===========================================================
+
+.main-pro{
+    ul{ padding: 0;
+        li{
+          padding: 10px 0px;
+        }
+    }
+  }
+   .side_pro{
+       i{
+           color: $secondray;
+           padding-right: 15px;
+       }
+
+       .cons{
+           padding: 30px;
+           background-size: cover;
+           background-blend-mode: darken;
+           background-color: rgba(0, 0, 0, 0.65);
+           p{
+               line-height: 26px;
+               color: rgba(255, 255, 255, 0.883);
+           }
+        .fa-phone-alt{
+         color: white;
+         background-color: $secondray;
+         padding: 15px;
+         @include Border-radious(100px);
+         margin-right: 10px;  
+       }
+    }
+      
+   }
+footer {
+    margin-top: 100px;
+    padding: 130px 50px 20px 50px;
+    background-color: #04131E;
+
+    img {
+        height: 20px;
+    }
+
+    p {
+        line-height: 25px;
+    }
+
+    .social-icons {
+        i {
+            margin-right: 5px;
+            padding: 15px;
+            background-color: $secondray;
+            @include Border-radious(100px);
+            @include transition(.3s);
+        }
+
+        i:hover {
+            font-size: 12px;
+            background-color: white;
+            color: $secondray;
+}
+    }
+
+    ul{padding: 0;
+        li{padding: 0;
+            a{
+             color: rgb(248, 248, 248);   
+             display: block;
+             padding: 5px 0px;
+             @include transition(.3s);
+            }
+            a:hover{
+                color: $secondray;
+            }
+        }
+    }
+    .media{
+        padding: 20px;
+        background-color: $primery;
+        i{  margin-right: 20px;
+            background-color: $accent;
+            color: white;
+            padding: 10px;
+            font-size: 30px;
+            
+        }
+    }
+}
