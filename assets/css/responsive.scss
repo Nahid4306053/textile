@@ -50,7 +50,7 @@ section{
           background-color: $secondray;
           padding: 30px 50px;
           position: absolute;
-          top: 40%;
+          top: 50%; 
         }  
     }
 
@@ -58,6 +58,9 @@ section{
         height: auto;
     }
 
+    .banner-crasoul .pro{
+        margin-top: -50px;
+    }
  section{
      padding: 20px;
      overflow-x: hidden;

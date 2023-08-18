@@ -14,29 +14,27 @@ section {
     background-color: #7FC6A4;
     padding: 30px 50px;
     position: absolute;
-    top: 40%;
+    top: 50%;
   }
-
   .counteri {
     height: auto;
   }
-
+  .banner-crasoul .pro {
+    margin-top: -50px;
+  }
   section {
     padding: 20px;
     overflow-x: hidden;
   }
-
   #title h1 {
     font-size: 30px;
   }
   #title a {
     font-size: 30px;
   }
-
   .top-head {
     display: none;
   }
-
   ul, li, a, p, span {
     font-family: "Heebo", sans-serif;
     font-size: 14px;
@@ -44,74 +42,61 @@ section {
     color: #758994;
     line-height: 1.2em;
   }
-
   h1 {
     font-family: "Lato", sans-serif;
     font-size: 56px;
     font-weight: 800;
     line-height: 1.2em;
   }
-
   h2 {
     font-family: "Lato", sans-serif;
     font-size: 34px;
     font-weight: 600;
     line-height: 1.2em;
   }
-
   h3 {
     font-family: "Lato", sans-serif;
     font-size: 22px;
     font-weight: 600;
     line-height: 1.2em;
   }
-
   h4 {
     font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 1.3em;
   }
-
   button {
     font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 800;
     line-height: 1.2em;
   }
-
   .banner-crasoul .main {
     margin-top: 10vh;
   }
-
   .About .teo-content {
     margin-top: 50px;
     padding-left: 20px;
   }
-
   .servioces {
     margin-top: 10px;
     margin-left: 10px;
   }
-
   .experince .progres {
     padding: 40px;
   }
-
   .latest-project {
     margin-top: 200px;
   }
-
   .part_2 .content-1 {
     position: absolute;
     top: 0;
     left: -100%;
   }
-
   .contact .media {
     margin-left: -50px;
   }
-
   .team {
     padding: 0px 20px;
   }
@@ -121,7 +106,6 @@ section {
     padding: 0px;
     position: relative;
   }
-
   .Quoto {
     padding-top: 100px;
     height: auto;
@@ -144,44 +128,43 @@ section {
     background-color: white;
     padding: 20px 0px;
   }
-
   .Prinching .con .contain {
     width: 290px;
     padding: 60px 0px;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 990px) {
+  .comment form {
+    padding: 10px;
+  }
   .banner h2 {
     background-color: #7FC6A4;
     padding: 30px 50px;
     position: absolute;
     top: 40%;
   }
-
+  .banner h3 {
+    font-size: 25px;
+  }
   .counteri {
     height: auto;
   }
-
   section {
     overflow-x: hidden;
     padding: 20px;
   }
-
   body {
     overflow-x: hidden;
   }
-
   #title h1 {
     font-size: 50px;
   }
   #title a {
     font-size: 30px;
   }
-
   .top-head {
     display: none;
   }
-
   ul, li, a, p, span {
     font-family: "Heebo", sans-serif;
     font-size: 16px;
@@ -189,70 +172,58 @@ section {
     color: #758994;
     line-height: 1.2em;
   }
-
   h1 {
     font-family: "Lato", sans-serif;
     font-size: 56px;
     font-weight: 800;
     line-height: 1.2em;
   }
-
   h2 {
     font-family: "Lato", sans-serif;
     font-size: 34px;
     font-weight: 600;
     line-height: 1.2em;
   }
-
   h3 {
     font-family: "Lato", sans-serif;
     font-size: 22px;
     font-weight: 600;
     line-height: 1.2em;
   }
-
   h4 {
     font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 1.3em;
   }
-
   button {
     font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 800;
     line-height: 1.2em;
   }
-
   .banner-crasoul .main {
     margin-top: 10vh;
   }
-
   .About .teo-content {
     margin-top: 50px;
     padding-left: 20px;
   }
-
   .servioces {
     margin-top: 10px;
     margin-left: 10px;
   }
-
   .experince .progres {
     padding: 40px;
   }
-
   .latest-project {
     margin-top: 200px;
   }
-
   .part_2 .content-1 {
     position: absolute;
     top: 0;
     left: -100%;
   }
-
   .team {
     padding: 0px 20px;
   }

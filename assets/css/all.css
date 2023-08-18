@@ -108,11 +108,9 @@ a:hover {
 
 #title h4 {
   margin-bottom: 50px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   -moz-text-decoration-line: underline;
-  -webkit-text-decoration-color: #7FC6A4;
-          text-decoration-color: #7FC6A4;
+  text-decoration-color: #7FC6A4;
   -moz-text-decoration-color: #7FC6A4;
   text-decoration-thickness: 3px;
   text-underline-offset: 20px;
@@ -178,7 +176,7 @@ header .top-head i {
 }
 header .top-head .social-icons {
   padding: 0px 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 header .top-head .social-icons i {
   padding: 15px 10px;
@@ -293,7 +291,7 @@ header nav button:hover a {
   left: 40%;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 .About .teo-img .overly img {
   height: 100%;
@@ -326,7 +324,7 @@ header nav button:hover a {
   margin-top: 100px;
 }
 .experince .progres {
-  background-color: #0b2b43b6;
+  background-color: rgba(11, 43, 67, 0.7137254902);
   background-size: cover;
   padding: 100px;
   background-repeat: no-repeat;
@@ -379,28 +377,12 @@ header nav button:hover a {
   color: #ffffff;
   font-size: 14px;
 }
-@-webkit-keyframes item-1 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 85%;
-  }
-}
 @keyframes item-1 {
   0% {
     width: 0%;
   }
   100% {
     width: 85%;
-  }
-}
-@-webkit-keyframes item-2 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
   }
 }
 @keyframes item-2 {
@@ -415,14 +397,6 @@ header nav button:hover a {
   animation: item-1 5s ease forwards;
   -webkit-animation: item-2 5s ease forwards;
 }
-@-webkit-keyframes item-3 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 65%;
-  }
-}
 @keyframes item-3 {
   0% {
     width: 0%;
@@ -435,14 +409,6 @@ header nav button:hover a {
   animation: item-3 5s ease forwards;
   -webkit-animation: item-3 5s ease forwards;
 }
-@-webkit-keyframes item-4 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 55%;
-  }
-}
 @keyframes item-4 {
   0% {
     width: 0%;
@@ -454,14 +420,6 @@ header nav button:hover a {
 .experince .progres .progress .item-4 {
   animation: item-4 5s ease forwards;
   -webkit-animation: item-4 5s ease forwards;
-}
-@-webkit-keyframes item-5 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 75%;
-  }
 }
 @keyframes item-5 {
   0% {
@@ -605,7 +563,7 @@ header nav button:hover a {
   top: -100%;
   left: 0;
   opacity: 0.1;
-  background-color: #0b2b43ce;
+  background-color: rgba(11, 43, 67, 0.8078431373);
   padding: 20px;
   position: absolute;
   display: flex;
@@ -619,8 +577,7 @@ header nav button:hover a {
   -ms-transition: 0.5s !important;
   -o-transition: 0.5s !important;
   position: absolute;
-  -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   left: 100%;
 }
 .team .man .contents-1 .side {
@@ -726,7 +683,7 @@ footer ul li {
   padding: 0;
 }
 footer ul li a {
-  color: #f8f8f8;
+  color: rgb(248, 248, 248);
   display: block;
   padding: 5px 0px;
   transition: 0.3s !important;
@@ -856,11 +813,9 @@ a:hover {
 
 #title h4 {
   margin-bottom: 50px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   -moz-text-decoration-line: underline;
-  -webkit-text-decoration-color: #7FC6A4;
-          text-decoration-color: #7FC6A4;
+  text-decoration-color: #7FC6A4;
   -moz-text-decoration-color: #7FC6A4;
   text-decoration-thickness: 3px;
   text-underline-offset: 20px;
@@ -926,7 +881,7 @@ header .top-head i {
 }
 header .top-head .social-icons {
   padding: 0px 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 header .top-head .social-icons i {
   padding: 15px 10px;
@@ -1047,7 +1002,7 @@ header nav button:hover a {
   -o-transition: 0.4s !important;
   display: flex;
   align-items: flex-end;
-  background-color: #0b2b43b7;
+  background-color: rgba(11, 43, 67, 0.7176470588);
   height: 0px;
   width: 100%;
   position: absolute;
@@ -1237,7 +1192,7 @@ footer ul li {
   padding: 0;
 }
 footer ul li a {
-  color: #f8f8f8;
+  color: rgb(248, 248, 248);
   display: block;
   padding: 5px 0px;
   transition: 0.3s !important;
@@ -1367,11 +1322,9 @@ a:hover {
 
 #title h4 {
   margin-bottom: 50px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   -moz-text-decoration-line: underline;
-  -webkit-text-decoration-color: #7FC6A4;
-          text-decoration-color: #7FC6A4;
+  text-decoration-color: #7FC6A4;
   -moz-text-decoration-color: #7FC6A4;
   text-decoration-thickness: 3px;
   text-underline-offset: 20px;
@@ -1437,7 +1390,7 @@ header .top-head i {
 }
 header .top-head .social-icons {
   padding: 0px 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 header .top-head .social-icons i {
   padding: 15px 10px;
@@ -1522,6 +1475,7 @@ header nav button:hover a {
 }
 
 .banner {
+  padding: 0;
   position: relative;
   height: 50vh;
   display: flex;
@@ -1541,7 +1495,7 @@ header nav button:hover a {
 .servioces {
   margin-top: 100px;
   padding: 100px 0px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   background-blend-mode: darken;
 }
 .servioces .ittems {
@@ -1612,11 +1566,12 @@ header nav button:hover a {
 }
 
 .Quoto {
+  position: relative;
   padding-top: 100px;
   background-color: rgba(0, 0, 0, 0.555);
   background-blend-mode: darken;
   background-size: cover;
-  height: 80vh;
+  background-repeat: no-repeat;
 }
 .Quoto .contact-form {
   padding: 80px;
@@ -1662,9 +1617,6 @@ header nav button:hover a {
 .Quoto .contact-form form input::-moz-placeholder, .Quoto .contact-form form textarea::-moz-placeholder {
   color: #758994;
 }
-.Quoto .contact-form form input:-ms-input-placeholder, .Quoto .contact-form form textarea:-ms-input-placeholder {
-  color: #758994;
-}
 .Quoto .contact-form form input::placeholder, .Quoto .contact-form form textarea::placeholder {
   color: #758994;
 }
@@ -1691,7 +1643,7 @@ header nav button:hover a {
   -o-transition: 0.4s !important;
   display: flex;
   align-items: flex-end;
-  background-color: #0b2b43b7;
+  background-color: rgba(11, 43, 67, 0.7176470588);
   height: 0px;
   width: 100%;
   position: absolute;
@@ -1776,6 +1728,7 @@ header nav button:hover a {
   padding-top: 100px;
   background-color: rgba(0, 0, 0, 0.555);
   background-blend-mode: darken;
+  background-repeat: no-repeat;
   background-size: cover;
   height: 45vh;
 }
@@ -1849,7 +1802,7 @@ footer ul li {
   padding: 0;
 }
 footer ul li a {
-  color: #f8f8f8;
+  color: rgb(248, 248, 248);
   display: block;
   padding: 5px 0px;
   transition: 0.3s !important;
@@ -1899,7 +1852,7 @@ a,
 p,
 span {
   font-family: "Heebo", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #758994;
   line-height: 1.2em;
@@ -1970,7 +1923,7 @@ header .top-head i {
 }
 header .top-head .social-icons {
   padding: 0px 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 header .top-head .social-icons i {
   padding: 15px 10px;
@@ -2113,15 +2066,10 @@ header nav button:hover a {
   position: absolute;
   width: 150%;
   height: 150%;
-  -webkit-animation-delay: 0s;
   animation-delay: 0s;
-  -webkit-animation: pulsate1 2s;
   animation: pulsate1 2s;
-  -webkit-animation-direction: forwards;
   animation-direction: forwards;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  -webkit-animation-timing-function: steps;
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
@@ -2129,18 +2077,6 @@ header nav button:hover a {
   top: -25%;
   left: -25%;
   background: rgba(198, 16, 0, 0);
-}
-@-webkit-keyframes pulsate1 {
-  0% {
-    transform: scale(0.6);
-    opacity: 1;
-    box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
-  }
-  100% {
-    transform: scale(1);
-    opacity: 0;
-    box-shadow: none;
-  }
 }
 @keyframes pulsate1 {
   0% {
@@ -2155,20 +2091,18 @@ header nav button:hover a {
   }
 }
 .banner-crasoul .pro {
-  margin-top: -100px;
+  margin-top: -150px;
 }
 .banner-crasoul .content-1 {
   background-color: #0B2B43;
-  padding: 40px 30px;
+  padding: 30px 30px;
 }
 
 #title h4 {
   margin-bottom: 50px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   -moz-text-decoration-line: underline;
-  -webkit-text-decoration-color: #7FC6A4;
-          text-decoration-color: #7FC6A4;
+  text-decoration-color: #7FC6A4;
   -moz-text-decoration-color: #7FC6A4;
   text-decoration-thickness: 3px;
   text-underline-offset: 20px;
@@ -2205,7 +2139,7 @@ header nav button:hover a {
   left: 40%;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 .About .teo-img .overly img {
   height: 100%;
@@ -2282,7 +2216,7 @@ header nav button:hover a {
 .servioces {
   margin-top: 100px;
   padding: 100px 0px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   background-blend-mode: darken;
 }
 .servioces .ittems {
@@ -2353,7 +2287,7 @@ header nav button:hover a {
 }
 
 .experince .progres {
-  background-color: #0b2b43b6;
+  background-color: rgba(11, 43, 67, 0.7137254902);
   background-size: cover;
   padding: 100px;
   background-repeat: no-repeat;
@@ -2514,7 +2448,7 @@ header nav button:hover a {
   -o-transition: 0.4s !important;
   display: flex;
   align-items: flex-end;
-  background-color: #0b2b43b7;
+  background-color: rgba(11, 43, 67, 0.7176470588);
   height: 0px;
   width: 100%;
   position: absolute;
@@ -2679,7 +2613,7 @@ footer ul li {
   padding: 0;
 }
 footer ul li a {
-  color: #f8f8f8;
+  color: rgb(248, 248, 248);
   display: block;
   padding: 5px 0px;
   transition: 0.3s !important;
