@@ -16,11 +16,16 @@ section {
     position: absolute;
     top: 50%;
   }
+  .banner-crasoul .body .content .play-btn {
+    margin-top: 5px !important;
+    width: 80px;
+    height: 80px;
+  }
   .counteri {
     height: auto;
   }
   .banner-crasoul .pro {
-    margin-top: 0px;
+    margin-top: -50px;
   }
   section {
     padding: 20px;
