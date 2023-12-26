@@ -96,7 +96,7 @@ header .top-head i {
 }
 header .top-head .social-icons {
   padding: 0px 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 header .top-head .social-icons i {
   padding: 15px 10px;
@@ -185,18 +185,19 @@ header nav button:hover a {
 }
 .banner-crasoul .body {
   position: relative;
+  overflow-x: hidden;
 }
 .banner-crasoul .body .top-owl .items {
   position: relative;
 }
 .banner-crasoul .body .top-owl .items img {
-  height: 90vh;
+  height: 100vh;
 }
 .banner-crasoul .body .content {
   position: absolute;
   top: 0;
   left: 0;
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.623);
@@ -239,15 +240,10 @@ header nav button:hover a {
   position: absolute;
   width: 150%;
   height: 150%;
-  -webkit-animation-delay: 0s;
   animation-delay: 0s;
-  -webkit-animation: pulsate1 2s;
   animation: pulsate1 2s;
-  -webkit-animation-direction: forwards;
   animation-direction: forwards;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  -webkit-animation-timing-function: steps;
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
@@ -255,18 +251,6 @@ header nav button:hover a {
   top: -25%;
   left: -25%;
   background: rgba(198, 16, 0, 0);
-}
-@-webkit-keyframes pulsate1 {
-  0% {
-    transform: scale(0.6);
-    opacity: 1;
-    box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
-  }
-  100% {
-    transform: scale(1);
-    opacity: 0;
-    box-shadow: none;
-  }
 }
 @keyframes pulsate1 {
   0% {
@@ -290,11 +274,9 @@ header nav button:hover a {
 
 #title h4 {
   margin-bottom: 50px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   -moz-text-decoration-line: underline;
-  -webkit-text-decoration-color: #7FC6A4;
-          text-decoration-color: #7FC6A4;
+  text-decoration-color: #7FC6A4;
   -moz-text-decoration-color: #7FC6A4;
   text-decoration-thickness: 3px;
   text-underline-offset: 20px;
@@ -331,7 +313,7 @@ header nav button:hover a {
   left: 40%;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 .About .teo-img .overly img {
   height: 100%;
@@ -408,7 +390,7 @@ header nav button:hover a {
 .servioces {
   margin-top: 100px;
   padding: 100px 0px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   background-blend-mode: darken;
 }
 .servioces .ittems {
@@ -479,7 +461,7 @@ header nav button:hover a {
 }
 
 .experince .progres {
-  background-color: #0b2b43b6;
+  background-color: rgba(11, 43, 67, 0.7137254902);
   background-size: cover;
   padding: 100px;
   background-repeat: no-repeat;
@@ -532,28 +514,12 @@ header nav button:hover a {
   color: #ffffff;
   font-size: 14px;
 }
-@-webkit-keyframes item-1 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 85%;
-  }
-}
 @keyframes item-1 {
   0% {
     width: 0%;
   }
   100% {
     width: 85%;
-  }
-}
-@-webkit-keyframes item-2 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
   }
 }
 @keyframes item-2 {
@@ -568,14 +534,6 @@ header nav button:hover a {
   animation: item-1 5s ease forwards;
   -webkit-animation: item-2 5s ease forwards;
 }
-@-webkit-keyframes item-3 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 65%;
-  }
-}
 @keyframes item-3 {
   0% {
     width: 0%;
@@ -588,14 +546,6 @@ header nav button:hover a {
   animation: item-3 5s ease forwards;
   -webkit-animation: item-3 5s ease forwards;
 }
-@-webkit-keyframes item-4 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 55%;
-  }
-}
 @keyframes item-4 {
   0% {
     width: 0%;
@@ -607,14 +557,6 @@ header nav button:hover a {
 .experince .progres .progress .item-4 {
   animation: item-4 5s ease forwards;
   -webkit-animation: item-4 5s ease forwards;
-}
-@-webkit-keyframes item-5 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 75%;
-  }
 }
 @keyframes item-5 {
   0% {
@@ -680,7 +622,7 @@ header nav button:hover a {
   -o-transition: 0.4s !important;
   display: flex;
   align-items: flex-end;
-  background-color: #0b2b43b7;
+  background-color: rgba(11, 43, 67, 0.7176470588);
   height: 0px;
   width: 100%;
   position: absolute;
@@ -845,7 +787,7 @@ footer ul li {
   padding: 0;
 }
 footer ul li a {
-  color: #f8f8f8;
+  color: rgb(248, 248, 248);
   display: block;
   padding: 5px 0px;
   transition: 0.3s !important;

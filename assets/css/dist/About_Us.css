@@ -536,11 +536,11 @@ header nav button:hover a {
 }
 
 .team {
-  padding: 0px 30px;
+ 
 }
 .team .man {
   overflow: hidden;
-  padding-left: 50px;
+
   position: relative;
 }
 .team .man .conten {

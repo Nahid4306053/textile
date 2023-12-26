@@ -50,14 +50,23 @@ section{
           background-color: $secondray;
           padding: 30px 50px;
           position: absolute;
-          top: 40%;
+          top: 50%; 
         }  
+      
     }
-
+  .banner-crasoul .body .content .play-btn{
+            margin-top: 5px !important;
+            width: 80px;
+            height: 80px;
+        }
     .counteri{
         height: auto;
     }
 
+    .banner-crasoul .pro{
+        margin-top: -90px;
+    }
+ 
  section{
      padding: 20px;
      overflow-x: hidden;

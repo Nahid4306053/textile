@@ -105,11 +105,9 @@ a:hover {
 
 #title h4 {
   margin-bottom: 50px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   -moz-text-decoration-line: underline;
-  -webkit-text-decoration-color: #7FC6A4;
-          text-decoration-color: #7FC6A4;
+  text-decoration-color: #7FC6A4;
   -moz-text-decoration-color: #7FC6A4;
   text-decoration-thickness: 3px;
   text-underline-offset: 20px;
@@ -175,7 +173,7 @@ header .top-head i {
 }
 header .top-head .social-icons {
   padding: 0px 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 header .top-head .social-icons i {
   padding: 15px 10px;
@@ -280,7 +278,7 @@ header nav button:hover a {
 .servioces {
   margin-top: 100px;
   padding: 100px 0px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   background-blend-mode: darken;
 }
 .servioces .ittems {
@@ -359,7 +357,7 @@ header nav button:hover a {
   background-repeat: no-repeat;
 }
 .Quoto .contact-form {
-  padding: 80px;
+  box-sizing: border-box;
 }
 .Quoto .contact-form .back-img {
   background-size: cover;
@@ -368,8 +366,10 @@ header nav button:hover a {
 }
 .Quoto .contact-form form {
   display: block;
+  overflow: hidden;
   background-color: white;
   padding: 80px;
+  box-sizing: border-box;
 }
 .Quoto .contact-form form label {
   color: #0B2B43;
@@ -402,9 +402,6 @@ header nav button:hover a {
 .Quoto .contact-form form input::-moz-placeholder, .Quoto .contact-form form textarea::-moz-placeholder {
   color: #758994;
 }
-.Quoto .contact-form form input:-ms-input-placeholder, .Quoto .contact-form form textarea:-ms-input-placeholder {
-  color: #758994;
-}
 .Quoto .contact-form form input::placeholder, .Quoto .contact-form form textarea::placeholder {
   color: #758994;
 }
@@ -417,6 +414,8 @@ header nav button:hover a {
   padding: 0px 30px;
 }
 .latest-project img {
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 450px;
 }
 .latest-project .con {
@@ -431,7 +430,7 @@ header nav button:hover a {
   -o-transition: 0.4s !important;
   display: flex;
   align-items: flex-end;
-  background-color: #0b2b43b7;
+  background-color: rgba(11, 43, 67, 0.7176470588);
   height: 0px;
   width: 100%;
   position: absolute;
@@ -590,7 +589,7 @@ footer ul li {
   padding: 0;
 }
 footer ul li a {
-  color: #f8f8f8;
+  color: rgb(248, 248, 248);
   display: block;
   padding: 5px 0px;
   transition: 0.3s !important;

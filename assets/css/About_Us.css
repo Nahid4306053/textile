@@ -105,11 +105,9 @@ a:hover {
 
 #title h4 {
   margin-bottom: 50px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   -moz-text-decoration-line: underline;
-  -webkit-text-decoration-color: #7FC6A4;
-          text-decoration-color: #7FC6A4;
+  text-decoration-color: #7FC6A4;
   -moz-text-decoration-color: #7FC6A4;
   text-decoration-thickness: 3px;
   text-underline-offset: 20px;
@@ -175,7 +173,7 @@ header .top-head i {
 }
 header .top-head .social-icons {
   padding: 0px 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 header .top-head .social-icons i {
   padding: 15px 10px;
@@ -290,7 +288,7 @@ header nav button:hover a {
   left: 40%;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 .About .teo-img .overly img {
   height: 100%;
@@ -323,7 +321,7 @@ header nav button:hover a {
   margin-top: 100px;
 }
 .experince .progres {
-  background-color: #0b2b43b6;
+  background-color: rgba(11, 43, 67, 0.7137254902);
   background-size: cover;
   padding: 100px;
   background-repeat: no-repeat;
@@ -376,28 +374,12 @@ header nav button:hover a {
   color: #ffffff;
   font-size: 14px;
 }
-@-webkit-keyframes item-1 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 85%;
-  }
-}
 @keyframes item-1 {
   0% {
     width: 0%;
   }
   100% {
     width: 85%;
-  }
-}
-@-webkit-keyframes item-2 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
   }
 }
 @keyframes item-2 {
@@ -412,14 +394,6 @@ header nav button:hover a {
   animation: item-1 5s ease forwards;
   -webkit-animation: item-2 5s ease forwards;
 }
-@-webkit-keyframes item-3 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 65%;
-  }
-}
 @keyframes item-3 {
   0% {
     width: 0%;
@@ -432,14 +406,6 @@ header nav button:hover a {
   animation: item-3 5s ease forwards;
   -webkit-animation: item-3 5s ease forwards;
 }
-@-webkit-keyframes item-4 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 55%;
-  }
-}
 @keyframes item-4 {
   0% {
     width: 0%;
@@ -451,14 +417,6 @@ header nav button:hover a {
 .experince .progres .progress .item-4 {
   animation: item-4 5s ease forwards;
   -webkit-animation: item-4 5s ease forwards;
-}
-@-webkit-keyframes item-5 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 75%;
-  }
 }
 @keyframes item-5 {
   0% {
@@ -602,7 +560,7 @@ header nav button:hover a {
   top: -100%;
   left: 0;
   opacity: 0.1;
-  background-color: #0b2b43ce;
+  background-color: rgba(11, 43, 67, 0.8078431373);
   padding: 20px;
   position: absolute;
   display: flex;
@@ -616,8 +574,7 @@ header nav button:hover a {
   -ms-transition: 0.5s !important;
   -o-transition: 0.5s !important;
   position: absolute;
-  -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   left: 100%;
 }
 .team .man .contents-1 .side {
@@ -723,7 +680,7 @@ footer ul li {
   padding: 0;
 }
 footer ul li a {
-  color: #f8f8f8;
+  color: rgb(248, 248, 248);
   display: block;
   padding: 5px 0px;
   transition: 0.3s !important;
