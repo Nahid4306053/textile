@@ -1,484 +1,760 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Prinching</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Prinching</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
+    <!-- Vendor CSS Files -->
+    <link
+      rel="stylesheet"
+      href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"
+    />
+    <link href="Bootstrap v5.0.0.css" rel="stylesheet" />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/all.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+  </head>
 
-  <!-- Vendor CSS Files -->
-  <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css">
-  <link href="Bootstrap v5.0.0.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/all.css" rel="stylesheet">
-  <link href="assets/css/responsive.css" rel="stylesheet">
-
-
-</head>
-
-<body style="height: auto;">
-<!-- ====================================================
+  <body style="height: auto">
+    <!-- ====================================================
                  common html
 =================================================== -->
 
-
-
-<!-- ====================================================
+    <!-- ====================================================
                   Desctop Header section
 =================================================== -->
-  <header>
-    <div class="top-head p-0">
-      <div class="container ">
-        <div class="row p-0">
-          <div class="col-6 ">
-            <div class="row d-flex justify-content-around ">
-              <div class="col-7 pt-2"><i class="far fa-map-marker-alt"></i> Jl. Sunset Road No.815, Kuta, Bali 80361
+    <header>
+      <div class="top-head p-0">
+        <div class="container">
+          <div class="row p-0">
+            <div class="col-6">
+              <div class="row d-flex justify-content-around">
+                <div class="col-7 pt-2">
+                  <i class="far fa-map-marker-alt"></i> Jl. Sunset Road No.815,
+                  Kuta, Bali 80361
+                </div>
+                <div class="col-5 pt-2">
+                  <i class="fas fa-envelope"></i> support@domain.com
+                </div>
               </div>
-              <div class="col-5 pt-2"><i class="fas fa-envelope"></i> support@domain.com</div>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+              <div class="social-icons">
+                <a href="https://www.facebook.com/mdnahidhosan.nahid.7"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
             </div>
           </div>
-          <div class="col-6 d-flex justify-content-end ">
-            <div class="social-icons">
-              <a href="https://www.facebook.com/mdnahidhosan.nahid.7"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <nav
+        id="navbars"
+        class="navbar navbar-expand-lg navbar-light bg-light shadow"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img style="height: 50px" src="img/ia_600000025.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About_Us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Services.html">Services</a>
+              </li>
+              <li id="manu" class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Projects
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="Projects.html">Projects</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Project_Details.html"
+                      >Project Details</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li id="manu" class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="Pricing.html">Pricing</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Our_Team.html">Our Team</a>
+                  </li>
+                  <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+                  <li>
+                    <a class="dropdown-item" href="404_Page.html">404 Page</a>
+                  </li>
+                </ul>
+              </li>
+              <li id="manu" class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+                  <li>
+                    <a class="dropdown-item" href="Single_Blog.html"
+                      >Single Blog</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button><a href="Contact.html">Get A Quote</a></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ====================================================
+                  Desctop Banner section
+=================================================== -->
+    <section
+      style="background-image: url('img/ia_600000047.jpg')"
+      class="banner"
+    >
+      <h2>Prinching</h2>
+    </section>
+
+    <!-- ====================================================
+                  Desctop  services section
+=================================================== -->
+
+    <!-- ====================================================
+                  Get a Quote section
+=================================================== -->
+
+    <!-- ====================================================
+                  prinching section
+=================================================== -->
+
+    <section style="margin-top: 150px; margin-bottom: 100px" class="Prinching p-0">
+      <div id="title" class="title text-center">
+        <h4 style="color: #0b2b43">Scince 2005</h4>
+        <h2 style="color: #0b2b43; margin-top: 10px">
+          We Provide The Best Textile Industry Since 2005
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+          quos incidunt totam sequi labore et? <br />
+          Rem, et beatae iusto explicabo, laudantium dolor ipsa reiciendis,
+        </p>
+      </div>
+      <div class="container">
+        <div class="row p-0">
+          <div class="col-12 col-lg-4">
+            <div class="con d-flex justify-content-center">
+              <div class="shadow">
+                <div class="contain text-center">
+                  <h3 style="color: #0b2b43">Basic Plan</h3>
+                  <h1 style="color: #7fc6a4">$56</h1>
+                  <ul>
+                    <li style="color: #0b2b43">
+                      <i style="color: #7fc6a4" class="fas fa-check px-2"></i
+                      >Design Fabric
+                    </li>
+                    <li style="color: #0b2b43">
+                      <i style="color: #7fc6a4" class="fas fa-check px-2"></i
+                      >Structure of a project
+                    </li>
+                    <li style="color: #0b2b43">
+                      <i style="color: #7fc6a4" class="fas fa-check px-2"></i
+                      >Free Consultation
+                    </li>
+                    <li style="color: #b1b1b1">
+                      <i style="color: #b1b1b1" class="fas fa-times px-2"></i
+                      >Scheme of Design
+                    </li>
+                    <li style="color: #b1b1b1">
+                      <i style="color: #b1b1b1" class="fas fa-times px-2"></i
+                      >Free Delivery
+                    </li>
+                  </ul>
+                  <button class="btns mt-4">Purchase Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="con d-flex justify-content-center">
+              <div class="shadow">
+                <div
+                  style="background-color: #0b2b43"
+                  class="contain text-center"
+                >
+                  <h3 style="color: #ffffff">Premium Plan</h3>
+                  <h1 style="color: #7fc6a4">$56</h1>
+                  <ul>
+                    <li style="color: #ffffff">
+                      <i style="color: #7fc6a4" class="fas fa-check px-2"></i
+                      >Design Fabric
+                    </li>
+                    <li style="color: #ffffff">
+                      <i style="color: #7fc6a4" class="fas fa-check px-2"></i
+                      >Structure of a project
+                    </li>
+                    <li style="color: #ffffff">
+                      <i style="color: #7fc6a4" class="fas fa-check px-2"></i
+                      >Free Consultation
+                    </li>
+                    <li style="color: #b1b1b1">
+                      <i style="color: #b1b1b1" class="fas fa-times px-2"></i
+                      >Scheme of Design
+                    </li>
+                    <li style="color: #b1b1b1">
+                      <i style="color: #b1b1b1" class="fas fa-times px-2"></i
+                      >Free Delivery
+                    </li>
+                  </ul>
+                  <button class="btns mt-4">Purchase Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="con d-flex justify-content-center">
+              <div class="shadow">
+                <div class="contain text-center">
+                  <h3 style="color: #0b2b43">Deluxe Plan</h3>
+                  <h1 style="color: #7fc6a4">$56</h1>
+                  <ul>
+                    <li style="color: #0b2b43">
+                      <i style="color: #7fc6a4" class="fas fa-check px-2"></i
+                      >Design Fabric
+                    </li>
+                    <li style="color: #0b2b43">
+                      <i style="color: #7fc6a4" class="fas fa-check px-2"></i
+                      >Structure of a project
+                    </li>
+                    <li style="color: #0b2b43">
+                      <i style="color: #7fc6a4" class="fas fa-check px-2"></i
+                      >Free Consultation
+                    </li>
+                    <li style="color: #b1b1b1">
+                      <i style="color: #b1b1b1" class="fas fa-times px-2"></i
+                      >Scheme of Design
+                    </li>
+                    <li style="color: #b1b1b1">
+                      <i style="color: #b1b1b1" class="fas fa-times px-2"></i
+                      >Free Delivery
+                    </li>
+                  </ul>
+                  <button class="btns mt-4">Purchase Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+                  counter section
+=================================================== -->
+
+    <!-- ====================================================
+                  Get a Quote section
+=================================================== -->
+    <section
+      style="background-image: url('img/ia_600000013.jpg')"
+      class="Quoto"
+    >
+      <div id="title" class="title text-center">
+        <h2 style="margin-bottom: 15px">
+          We Have Participated In Many ExhibitionsTo Show Our Projects
+        </h2>
+        <p class="text-light">
+          Lorem ipsum dolor sit amet consectetur, adipisicing explicabo,
+          laudantium dolor ipsa reiciendis,<br />
+          expedita facilis itaque quibusdam! Delectus itaque!
+        </p>
+      </div>
+      <div class="row contact-form">
+        <div
+          style="background-image: url('')"
+          class="col-12 col-lg-5 p-0 back-img"
+        >
+          <img
+            src="img/blonde-fashion-designer-in-her-workshop.jpg"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="col-12 col-lg-7 p-0">
+          <form action="" method="post" class="row">
+            <div style="margin-left: 0px" class="row p-0">
+              <div class="col-12 col-lg-6">
+                <label for="nmae">Name</label><br />
+                <input
+                  class="form-control"
+                  placeholder="Your Full Name"
+                  type="text"
+                  name=""
+                  id="nmae"
+                />
+              </div>
+              <div class="col-12 col-lg-6">
+                <label for="email">Email</label><br />
+                <input
+                  class="form-control"
+                  type="email"
+                  placeholder="Your Email Address"
+                  name=""
+                  id="email"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-lg-12">
+              <label for="sel">Select</label><br />
+              <select
+                id="sel"
+                class="form-select form-select-lg mb-3"
+                aria-label=".form-select-lg example"
+              >
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-12 col-lg-12">
+              <label for="text">Masage</label><br />
+              <textarea
+                id="text"
+                class="form-control"
+                cols="30"
+                placeholder="Your Masage"
+                rows="4"
+                aria-label="With textarea"
+              ></textarea>
+            </div>
+            <div class="mt-5">
+              <button type="submit" class="btns mt-1">More Services</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+                  F_A_Q section
+=================================================== -->
+    <section style="margin-top: 350px" class="F_A_Q">
+      <div id="title" class="title text-center">
+        <h4 style="color: #0b2b43">Scince 2005</h4>
+        <h2 style="color: #0b2b43; margin-bottom: 15px">
+          We Provide The Best Textile Industry Since 2005
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing explicabo,
+          laudantium dolor ipsa reiciendis,<br />
+          expedita facilis itaque quibusdam! Delectus itaque!
+        </p>
+      </div>
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-12 col-lg-6">
+            <div class="accordion accordion-flush" id="accordionFlushExample-1">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading-1">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse-1"
+                    aria-expanded="false"
+                    aria-controls="flush-collapse-1"
+                  >
+                    <img src="img/play_button.png" alt="" /> Ankle replacement
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapse-1"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="flush-heading-1"
+                  data-bs-parent="#accordionFlushExample-1"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                    tempora nostrum adipisci officiis quasi commodi, natus
+                    numquam suscipit accusantium?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading-2">
+                  <button
+                    class="accordion-button collapsed d-flex align-items-center"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse-2"
+                    aria-expanded="false"
+                    aria-controls="flush-collapse-2"
+                  >
+                    <img src="img/play_button.png" alt="" /> Hand surgery
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapse-2"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-heading-2"
+                  data-bs-parent="#accordionFlushExample-1"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                    tempora nostrum adipisci officiis quasi commodi, natus
+                    numquam suscipit accusantium?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading-3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse-3"
+                    aria-expanded="false"
+                    aria-controls="flush-collapse-3"
+                  >
+                    <img src="img/play_button.png" alt="" /> Total knee
+                    replacement (TKR)
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapse-3"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-heading-3"
+                  data-bs-parent="#accordionFlushExample-1"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                    tempora nostrum adipisci officiis quasi commodi, natus
+                    numquam suscipit accusantium?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading-3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-4"
+                    aria-expanded="false"
+                    aria-controls="flush-collapse-4"
+                  >
+                    <img src="img/play_button.png" alt="" /> Heart treatment
+                  </button>
+                </h2>
+                <div
+                  id="flush-4"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-heading-3"
+                  data-bs-parent="#accordionFlushExample-1"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                    tempora nostrum adipisci officiis quasi commodi, natus
+                    numquam suscipit accusantium?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    <img src="img/play_button.png" alt="" /> Ankle replacement
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                    tempora nostrum adipisci officiis quasi commodi, natus
+                    numquam suscipit accusantium?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed d-flex align-items-center"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    <img src="img/play_button.png" alt="" /> Hand surgery
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                    tempora nostrum adipisci officiis quasi commodi, natus
+                    numquam suscipit accusantium?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <img src="img/play_button.png" alt="" /> Total knee
+                    replacement (TKR)
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                    tempora nostrum adipisci officiis quasi commodi, natus
+                    numquam suscipit accusantium?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-four"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <img src="img/play_button.png" alt="" /> Heart treatment
+                  </button>
+                </h2>
+                <div
+                  id="flush-four"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                    tempora nostrum adipisci officiis quasi commodi, natus
+                    numquam suscipit accusantium?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+                  prinching section
+=================================================== -->
+
+    <footer class="footer">
+      <div class="container mx-auto">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <img
+              style="height: 60px"
+              src="img/ia_600000030.png"
+              class="img-fluid"
+              alt=""
+            />
+            <p class="mt-4 text-light">
+              Lorem ipsum dolor sit amet consectetur <br />
+              adipisicing elit. Ipsam, consequatur!
+            </p>
+            <div class="social-icons mt-5">
+              <a href="https://www.facebook.com/mdnahidhosan.nahid.7"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
               <a href="#"><i class="fab fa-twitter"></i></a>
               <a href="#"><i class="fab fa-instagram"></i></a>
               <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <nav id="navbars" class="navbar navbar-expand-lg navbar-light bg-light shadow">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><img style="height:50px;" src="img/ia_600000025.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
-            <li class="nav-item">
-              <a class="nav-link "  href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="About_Us.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="Services.html">Services</a>
-            </li>
-            <li id="manu" class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Projects
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item " href="Projects.html">Projects</a></li>
-                <li><a class="dropdown-item" href="Project_Details.html">Project Details</a></li>
-              </ul>
-            </li>
-            <li id="manu" class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Pages
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="Pricing.html">Pricing</a></li>
-                <li><a class="dropdown-item" href="Our_Team.html">Our Team</a></li>
-                <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
-                <li><a class="dropdown-item" href="404_Page.html">404 Page</a></li>
-              </ul>
-            </li>
-            <li id="manu" class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Blog
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
-                <li><a class="dropdown-item" href="Single_Blog.html">Single Blog</a></li>
-
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="Contact.html" >Contact</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <button><a href="Contact.html">Get A Quote</a></button>
-          </form>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-
-<!-- ====================================================
-                  Desctop Banner section
-=================================================== -->
-<section style="background-image: url('img/ia_600000047.jpg');" class="banner">
-    <h2>Prinching</h2>
-</section>
-
-<!-- ====================================================
-                  Desctop  services section
-=================================================== -->
-
-
-
-<!-- ====================================================
-                  Get a Quote section
-=================================================== -->
-
-<!-- ====================================================
-                  prinching section
-=================================================== -->
-
-<section style="margin-top: 150px; margin-bottom: 100px;" class="Prinching">
-  <div id="title" class="title text-center">
-      <h4 style="color: #0B2B43;">Scince 2005</h4>
-      <h2 style="color: #0B2B43; margin-top: 10px;">We Provide The Best Textile Industry Since 2005</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quos
-        incidunt totam sequi labore et? <br> Rem, et beatae iusto explicabo, laudantium dolor ipsa reiciendis,
-       </p>
-    </div>
-    <div class="p-5">
-        <div class="row">
-            <div class="col-12 col-lg-4">
-                <div class="con  d-flex justify-content-center">
-                  <div class="shadow">
-                      <div class="contain text-center ">
-                          <h3 style="color:#0B2B43;">Basic Plan</h3>
-                          <h1 style="color:#7FC6A4;">$56</h1>
-                          <ul>
-                              <li style="color: #0B2B43;"><i style="color: #7FC6A4;" class="fas fa-check px-2"></i>Design Fabric</li>
-                              <li style="color: #0B2B43;"><i style="color: #7FC6A4;" class="fas fa-check px-2"></i>Structure of a project</li>
-                              <li style="color: #0B2B43;"><i style="color: #7FC6A4;" class="fas fa-check px-2"></i>Free Consultation</li>
-                              <li style="color: #B1B1B1;"><i style="color: #B1B1B1;" class="fas fa-times px-2"></i>Scheme of Design</li>
-                              <li style="color: #B1B1B1;"><i style="color: #B1B1B1;" class="fas fa-times px-2"></i>Free Delivery</li>
-                          </ul>
-                          <button class="btns mt-4 ">Purchase Now</button>
-                      </div>
-                  </div>
-                </div>
-            </div> 
-            <div class="col-12 col-lg-4">
-              <div class="con  d-flex justify-content-center">
-                <div class="shadow">
-                    <div style="background-color:#0B2B43;" class="contain text-center ">
-                        <h3 style="color:#ffffff;">Premium Plan</h3>
-                        <h1 style="color:#7FC6A4;">$56</h1>
-                        <ul>
-                            <li style="color: #ffffff;"><i style="color: #7FC6A4;" class="fas fa-check px-2"></i>Design Fabric</li>
-                            <li style="color: #ffffff;"><i style="color: #7FC6A4;" class="fas fa-check px-2"></i>Structure of a project</li>
-                            <li style="color: #ffffff;"><i style="color: #7FC6A4;" class="fas fa-check px-2"></i>Free Consultation</li>
-                            <li style="color: #B1B1B1;"><i style="color: #B1B1B1;" class="fas fa-times px-2"></i>Scheme of Design</li>
-                            <li style="color: #B1B1B1;"><i style="color: #B1B1B1;" class="fas fa-times px-2"></i>Free Delivery</li>
-                        </ul>
-                        <button class="btns mt-4 ">Purchase Now</button>
-                    </div>
-                </div>
-              </div>
+          <div class="col-12 col-lg-2 mt-lg-0 mt-5">
+            <div id="title" class="title">
+              <h4>Quick Links</h4>
+            </div>
+            <ul>
+              <li><a href="#"> About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-2">
+            <div id="title" class="title">
+              <h4>Useful Links</h4>
+            </div>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+              <li><a href="#">Disclaimer</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
           </div>
           <div class="col-12 col-lg-4">
-              <div class="con  d-flex justify-content-center">
-                <div class="shadow">
-                    <div class="contain text-center ">
-                        <h3 style="color:#0B2B43;">Deluxe Plan</h3>
-                        <h1 style="color:#7FC6A4;">$56</h1>
-                        <ul>
-                            <li style="color: #0B2B43;"><i style="color: #7FC6A4;" class="fas fa-check px-2"></i>Design Fabric</li>
-                            <li style="color: #0B2B43;"><i style="color: #7FC6A4;" class="fas fa-check px-2"></i>Structure of a project</li>
-                            <li style="color: #0B2B43;"><i style="color: #7FC6A4;" class="fas fa-check px-2"></i>Free Consultation</li>
-                            <li style="color: #B1B1B1;"><i style="color: #B1B1B1;" class="fas fa-times px-2"></i>Scheme of Design</li>
-                            <li style="color: #B1B1B1;"><i style="color: #B1B1B1;" class="fas fa-times px-2"></i>Free Delivery</li>
-                        </ul>
-                        <button class="btns mt-4 ">Purchase Now</button>
-                    </div>
+            <div id="title" class="title">
+              <h4>Make Appointment</h4>
+            </div>
+            <ul>
+              <li>
+                <p class="text-light">
+                  <i class="far fa-clock"></i> 9 AM - 5 PM , Monday - Saturday
+                </p>
+              </li>
+              <div class="media d-flex">
+                <a class="align-self-center" href="#">
+                  <i class="fal fa-phone-alt"></i>
+                </a>
+                <div class="media-body mt-2">
+                  <h5>Call Us Today</h5>
+                  <p>(+880)19 0921 8755</p>
                 </div>
               </div>
+            </ul>
           </div>
         </div>
-    </div>
-</section>
-
-  
-<!-- ====================================================
-                  counter section
-=================================================== -->
-
-<!-- ====================================================
-                  Get a Quote section
-=================================================== -->
-<section style="background-image: url('img/ia_600000013.jpg');" class="Quoto">
-  <div id="title" class="title text-center">
-     
-      <h2 style=" margin-bottom: 15px;">We Have Participated In Many ExhibitionsTo Show Our Projects </h2>
-      <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing explicabo, laudantium dolor ipsa reiciendis,<br>
-        expedita facilis itaque quibusdam! Delectus itaque!</p>
-    </div>
-    <div class="row contact-form">
-        <div style="background-image: url('');" class="col-12 col-lg-5 p-0 back-img">
-        <img src="img/blonde-fashion-designer-in-her-workshop.jpg" class="img-fluid " alt="">
+        <hr />
+        <div class="d-flex justify-content-between row">
+          <p class="mt-3 col-12 col-lg-6 text-lg-start text-md-center">
+            Textile & Garment Industry Author By Md Kamal Uddin
+          </p>
+          <p class="mt-3 col-12 text-lg-end text-md-center col-lg-6">
+            Copyright © 2021. All rights reserved.
+          </p>
+        </div>
       </div>
-           <div class="col-12 col-lg-7 p-0">
-              <form action="" method="post" class="row">
-                 <div style="margin-left: 0px;" class="row p-0 ">
-                  <div class="col-12 col-lg-6">
-                      <label for="nmae">Name</label><br>
-                      <input class="form-control" placeholder="Your Full Name" type="text" name="" id="nmae">
-                  </div>
-                  <div class="col-12 col-lg-6">
-                    <label for="email">Email</label><br>
-                    <input class="form-control" type="email" placeholder="Your Email Address" name="" id="email">
-                </div>
-                 </div>
-              <div class="col-12 col-lg-12">
-                  <label for="sel">Select</label><br>
-                  <select id="sel" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                      <option selected>Open this select menu</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-              </div>
-              <div class="col-12 col-lg-12">
-                  <label for="text">Masage</label><br>
-                  <textarea id="text" class="form-control" cols="30" placeholder="Your Masage" rows="4" aria-label="With textarea"></textarea>
-              </div>
-              <div class="mt-5"><button type="submit" class="btns mt-1 ">More Services</button></div>
-              </form>
-           </div>
-      </div>
-</section>
+    </footer>
+    <!-- Vendor JS Files -->
+    <!-- <link rel="stylesheet" href="../assets/vendor/owl.carousel/assets/owl.theme.default.css"> -->
+    <script src="jquery-ui.js"></script>
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="Bootstrap v5.0.0.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
 
-<!-- ====================================================
-                  F_A_Q section
-=================================================== -->
-<section style="margin-top: 350px;" class="F_A_Q">
-    <div id="title" class="title text-center">
-        <h4 style="color: #0B2B43;">Scince 2005</h4>
-        <h2 style="color: #0B2B43; margin-bottom: 15px;">We Provide The Best Textile Industry Since 2005</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing explicabo, laudantium dolor ipsa reiciendis,<br>
-          expedita facilis itaque quibusdam! Delectus itaque!</p>
-      </div>
-      <div class="container">
-           <div class="row mt-5">
-              <div class="col-12 col-lg-6" >
-                <div class="accordion accordion-flush" id="accordionFlushExample-1">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-heading-1">
-                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse-1" aria-expanded="false" aria-controls="flush-collapse-1">
-                          <img src="img/play_button.png" alt=""> Ankle replacement
-                        </button>
-                      </h2>
-                      <div id="flush-collapse-1" class="accordion-collapse collapse show" aria-labelledby="flush-heading-1"
-                        data-bs-parent="#accordionFlushExample-1">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora nostrum
-                          adipisci officiis quasi commodi, natus numquam suscipit accusantium?</div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-heading-2">
-                        <button class="accordion-button collapsed d-flex align-items-center" type="button"
-                          data-bs-toggle="collapse" data-bs-target="#flush-collapse-2" aria-expanded="false"
-                          aria-controls="flush-collapse-2">
-                          <img src="img/play_button.png" alt=""> Hand surgery
-                        </button>
-                      </h2>
-                      <div id="flush-collapse-2" class="accordion-collapse collapse" aria-labelledby="flush-heading-2"
-                        data-bs-parent="#accordionFlushExample-1">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora nostrum
-                          adipisci officiis quasi commodi, natus numquam suscipit accusantium?</div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-heading-3">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse-3" aria-expanded="false" aria-controls="flush-collapse-3">
-                          <img src="img/play_button.png" alt=""> Total knee replacement (TKR)
-                        </button>
-                      </h2>
-                      <div id="flush-collapse-3" class="accordion-collapse collapse" aria-labelledby="flush-heading-3"
-                        data-bs-parent="#accordionFlushExample-1">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora nostrum
-                          adipisci officiis quasi commodi, natus numquam suscipit accusantium?</div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-heading-3">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#flush-4" aria-expanded="false" aria-controls="flush-collapse-4">
-                          <img src="img/play_button.png" alt=""> Heart treatment
-                        </button>
-                      </h2>
-                      <div id="flush-4" class="accordion-collapse collapse" aria-labelledby="flush-heading-3"
-                        data-bs-parent="#accordionFlushExample-1">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora nostrum
-                          adipisci officiis quasi commodi, natus numquam suscipit accusantium?</div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-              <div class="col-12 col-lg-6" >
-                <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          <img src="img/play_button.png" alt=""> Ankle replacement
-                        </button>
-                      </h2>
-                      <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora nostrum
-                          adipisci officiis quasi commodi, natus numquam suscipit accusantium?</div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed d-flex align-items-center" type="button"
-                          data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                          aria-controls="flush-collapseTwo">
-                          <img src="img/play_button.png" alt=""> Hand surgery
-                        </button>
-                      </h2>
-                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora nostrum
-                          adipisci officiis quasi commodi, natus numquam suscipit accusantium?</div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                          <img src="img/play_button.png" alt=""> Total knee replacement (TKR)
-                        </button>
-                      </h2>
-                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora nostrum
-                          adipisci officiis quasi commodi, natus numquam suscipit accusantium?</div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#flush-four" aria-expanded="false" aria-controls="flush-collapseThree">
-                          <img src="img/play_button.png" alt=""> Heart treatment
-                        </button>
-                      </h2>
-                      <div id="flush-four" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora nostrum
-                          adipisci officiis quasi commodi, natus numquam suscipit accusantium?</div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-</section>
-
-<!-- ====================================================
-                  prinching section
-=================================================== -->
-
-
-
-<footer class="footer">
-  <div class="row">
-    <div class="col-12 col-lg-4">
-     <img style="height: 60px;" src="img/ia_600000030.png" class="img-fluid " alt="">
-    <p class="mt-4 text-light">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Ipsam, consequatur!</p>
-    <div class="social-icons mt-5">
-      <a href="https://www.facebook.com/mdnahidhosan.nahid.7"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
-    </div>
-  </div>
-  <div class="col-12 col-lg-2 mt-lg-0 mt-5"> 
-    <div id="title" class="title">
-      <h4>Quick Links</h4>
-   </div>
-   <ul>
-     <li><a href="#"> About Us</a></li>
-     <li><a href="#">Services</a></li>
-     <li><a href="#">Projects</a></li>
-     <li><a href="#">Pricing</a></li>
-     <li><a href="#">Contact</a></li>
-   </ul>
-  </div>
-  <div class="col-12 col-lg-2"> 
-    <div id="title" class="title">
-      <h4>Useful Links</h4>
-   </div>
-   <ul>
-     <li><a href="#">Privacy Policy</a></li>
-     <li><a href="#">Terms and Conditions</a></li>
-     <li><a href="#">Disclaimer</a></li>
-     <li><a href="#">Support</a></li>
-     <li><a href="#">FAQ</a></li>
-   </ul>
-  </div>
-  <div class="col-12 col-lg-4 px-lg-5"> 
-    <div id="title" class="title">
-      <h4>Make Appointment</h4>
-   </div>
-   <ul>
-     <li > <p class="text-light"><i class="far fa-clock"></i>  9 AM - 5 PM , Monday - Saturday</p></li>
-     <div class="media d-flex">
-       <a class=" align-self-center" href="#">
-           <i class="fal fa-phone-alt"></i>
-       </a>
-       <div class="media-body mt-2">
-         <h5>Call Us Today</h5>
-         <p>(+880)19 0921 8755</p>
-       </div>
-     </div>
-    </ul>
-  </div>
-  </div>
-  <hr>
-  <div class="d-flex justify-content-between row ">
-    <p class="mt-3 col-12 col-lg-6 text-lg-start text-md-center">Textile & Garment Industry Author By Md Kamal Uddin</p>
-    <p class="mt-3 col-12  text-lg-end text-md-center col-lg-6">Copyright © 2021. All rights reserved.</p>
-  </div>
-</footer>
-  <!-- Vendor JS Files -->
-  <!-- <link rel="stylesheet" href="../assets/vendor/owl.carousel/assets/owl.theme.default.css"> -->
-  <script src="jquery-ui.js"></script>
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="Bootstrap v5.0.0.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

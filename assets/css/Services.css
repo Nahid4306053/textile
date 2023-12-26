@@ -357,7 +357,7 @@ header nav button:hover a {
   background-repeat: no-repeat;
 }
 .Quoto .contact-form {
-  padding: 80px;
+  box-sizing: border-box;
 }
 .Quoto .contact-form .back-img {
   background-size: cover;
@@ -366,8 +366,10 @@ header nav button:hover a {
 }
 .Quoto .contact-form form {
   display: block;
+  overflow: hidden;
   background-color: white;
   padding: 80px;
+  box-sizing: border-box;
 }
 .Quoto .contact-form form label {
   color: #0B2B43;
@@ -412,6 +414,8 @@ header nav button:hover a {
   padding: 0px 30px;
 }
 .latest-project img {
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 450px;
 }
 .latest-project .con {

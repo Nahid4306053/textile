@@ -1629,6 +1629,8 @@ header nav button:hover a {
   padding: 0px 30px;
 }
 .latest-project img {
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 450px;
 }
 .latest-project .con {
@@ -2012,6 +2014,7 @@ header nav button:hover a {
 }
 .banner-crasoul .body {
   position: relative;
+  overflow-x: hidden;
 }
 .banner-crasoul .body .top-owl .items {
   position: relative;
